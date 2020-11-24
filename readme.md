@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://stackoverflow.com/questions/33910294/what-is-the-difference-between-article-and-section-in-html5/33910539
 2. https://developer.mozilla.org/nl/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
-3. -...-
+3. https://codepen.io/JacobLett/pen/dOYxJb
 
 ## Bronnenlijst voor afbeeldingen
 1. https://vignette.wikia.nocookie.net/51fe011d-e97c-43c4-a745-df5ac51f5740/scale-to-width-down/800

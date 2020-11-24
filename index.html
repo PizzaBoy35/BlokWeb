@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Charlie Jansen">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
     <title>Fandom</title>
@@ -15,37 +15,74 @@
 <header>
 
     <a>
-        <img src="images/hamburgermenu.png" width="375px" alt="Een breakdownschets waarin te zien is uit welke HTML elementen de site bestaat en hoe die elementen genest zijn.">
+        <img class="hamburger" src="images/hamburgermenu.png"  alt="Een hamburgermenu om te navigeren">
     </a>
 
-    <a>
-        <img src="images/fandomlogo.png" width="375px" alt="Een breakdownschets waarin te zien is uit welke HTML elementen de site bestaat en hoe die elementen genest zijn.">
+    <a href="index.html">
+        <img class="linktohome" src="images/fandomlogo.png"  alt="Het logo van Fandom dat tegelijkertijd ook functioneert als knop om naar het thuisscherm te gaan">
     </a>
 
-        <img src="images/zoekicoontje.png" width="375px" alt="Een breakdownschets waarin te zien is uit welke HTML elementen de site bestaat en hoe die elementen genest zijn.">
+        <img class="search" src="images/zoekicoontje.png"  alt="Een vergrootglas voor de zoekfunctie">
 
 </header>
 
 <body>
 
-    <article>
-        <section>
-            <p>GAMES XBOX</p>
+    <article class="articlegreen">
+        <section class="textinarticle">
+           <p class="upperarticletext">GAMES XBOX PLAYSTATION</p>
+            <img class="articleimage" src="images/defwatchdogsimage.png" alt="Een afbeelding van het onderwerp dat besproken wordt in dit artikel. In dit geval: Watch Dogs Legion" />
+            <a href="articleinfo.html" class="articlelink"><h2 class="textinarticleblueunderline">'Watch Dogs' Timeline: The Biggest Events So Far</h2></a>
+            <p class="textinarticle">With 'Watch Dogs Legion' out, we're taking a look back at some of the most notable moments in the entire series.</p>
         </section>
-        <section>
-            <img src="images/fandomlogo.png" />
-            <h2>'Watch Dogs' Timeline: The Biggest Events So Far</h2>
-            <p>With 'Watch Dogs Legion' out, we're taking a look back at some of the most notable moments in the entire series.</p>
-        </section>
-        <section>
+        <section class="lowerarticletext">
             <a>Emily Rose Jacobson</a>
-            <p>1d</p>
-            <a><img src="images/shareicoontje.png" /></a>
+            <p class="daypostedposition">1d</p>
+            <a><img class="sharebutton" src="images/shareicoontje.png" /></a>
         </section>
     </article>
 
+    <article class="articlepurple">
+        <section class="textinarticle">
+           <p class="upperarticletext">GAMES XBOX</p>
+            <img class="articleimage" src="images/tweedeartikel.jpg" alt="Een afbeelding van het onderwerp dat besproken wordt in dit artikel. In dit geval: Xbox exclusives" />
+            <h2 class="textinarticleblueunderline">Xbox Series X: The Games You're Most Excited For</h2>
+            <p class="textinarticle">You let us know which games you can't wait to play on the newest Xbox system.</p>
+        </section>
+        <section class="lowerarticletext">
+            <a>Eammon</a>
+            <p class="daypostedposition">2d</p>
+            <a><img class="sharebutton" src="images/shareicoontje.png" /></a>
+        </section>
+    </article>
 
+    <article class="articlegreen">
+        <section class="textinarticle">
+           <p class="upperarticletext">MOVIES HONEST TRAILERS</p>
+            <img class="articleimage" src="images/derdeartikel.jpg" alt="Een afbeelding van het onderwerp dat besproken wordt in dit artikel. In dit geval: The Evil Dead" />
+            <h2 class="textinarticlenounderline">Honest Trailers | 'Evil Dead' Franchise</h2>
+            <p class="textinarticle">Honest Trailers take on Sam Raimi's - We wanna say masterpiece? - the 'Evil Dead' franchise.</p>
+        </section>
+        <section class="lowerarticletext">
+            <a>Fin Carew</a>
+            <p class="daypostedposition">Nov 10</p>
+            <a><img class="sharebutton" src="images/shareicoontje.png" /></a>
+        </section>
+    </article>
 
+    <article class="articlepurple">
+        <section class="textinarticle">
+           <p class="upperarticletext">TV STREAMING DISNEY</p>
+            <img class="articleimage" src="images/vierdeartikel.jpg" alt="Een afbeelding van het onderwerp dat besproken wordt in dit artikel. In dit geval: The Mandolorian" />
+            <h2 class="textinarticleyellowunderline">The Mandalorian's Helmet Can Be Yours: Mando Mondays</h2>
+            <p class="textinarticle">Hasbro's Mando Mondays Initiative is giving us a ton of great Mando products, including our favorite bounty hunter's cool headwear.</p>
+        </section>
+        <section class="lowerarticletext">
+            <a>Fandom Shop</a>
+            <p class="daypostedposition">Nov 10</p>
+            <a><img class="sharebutton" src="images/shareicoontje.png" /></a>
+        </section>
+    </article>
 
 
 
@@ -53,53 +90,55 @@
 </body>
 
 <footer>
-    <a><img src="images/fandomlogo.png" /></a>
-    <p>EXPLORE PROPERTIES</p>
-    <ul>
-        <li><a>Fandom</a></li>
-        <li><a>Muthead</a></li>
-        <li><a>Gamepedia</a></li>
-        <li><a>Futhead</a></li>
-        <li><a>D&D Beyond</a></li>
-        <li><a>Cortex RPG</a></li>
+    <a class="footerlinktohome">
+    <img class="footerlinktohome" src="images/fandomlogo.png" />
+    </a>
+    <p class="footertitles">EXPLORE PROPERTIES</p>
+    <ul class="footerlinks">
+        <li class="footerlinks"><a>Fandom</a></li>
+        <li class="footerlinks"><a>Muthead</a></li>
+        <li class="footerlinks"><a>Gamepedia</a></li>
+        <li class="footerlinks"><a>Futhead</a></li>
+        <li class="footerlinks"><a>D&D Beyond</a></li>
+        <li class="footerlinks"><a>Cortex RPG</a></li>
     </ul>
 
-    <p>FOLLOW US</p>
-    /*Hier komen nog social media icoontjes*/
+    <p class="footertitles">FOLLOW US</p>
+    //Hier komen nog social media icoontjes
 
 
-    <p>OVERVIEW</p>
-    <ul>
-        <li><a>About</a></li>
-        <li><a>Privacy Policy</a></li>
-        <li><a>Careers</a></li>
-        <li><a>Global Sitemap</a></li>
-        <li><a>Press</a></li>
-        <li><a>Local Sitemap</a></li>
-        <li><a>Contact</a></li>
-        <li><a>Terms of use</a></li>
+    <p class="footertitles">OVERVIEW</p>
+    <ul class="footerlinks">
+        <li class="footerlinks"><a>About</a></li>
+        <li class="footerlinks"><a>Privacy Policy</a></li>
+        <li class="footerlinks"><a>Careers</a></li>
+        <li class="footerlinks"><a>Global Sitemap</a></li>
+        <li class="footerlinks"><a>Press</a></li>
+        <li class="footerlinks"><a>Local Sitemap</a></li>
+        <li class="footerlinks"><a>Contact</a></li>
+        <li class="footerlinks"><a>Terms of use</a></li>
     </ul>
 
-    <p>COMMUNITY</p>
-    <ul>
-        <li><a>Community Central</a></li>
-        <li><a>Do Not Sell My Info</a></li>
-        <li><a>Support</a></li>
-        <li><a>Help</a></li>
+    <p class="footertitles">COMMUNITY</p>
+    <ul class="footerlinks">
+        <li class="footerlinks"><a>Community Central</a></li>
+        <li class="footerlinks"><a>Do Not Sell My Info</a></li>
+        <li class="footerlinks"><a>Support</a></li>
+        <li class="footerlinks"><a>Help</a></li>
     </ul>
 
-    <p>ADVERTISE</p>
-    <ul>
-        <li><a>Media Kit</a></li>
-        <li><a>Contact</a></li>
+    <p class="footertitles">ADVERTISE</p>
+    <ul class="footerlinks">
+        <li class="footerlinks"><a>Media Kit</a></li>
+        <li class="footerlinks"><a>Contact</a></li>
     </ul>
 
-    <p>FANDOM APPS</p>
-    <p>Take your favorite fandoms with you and never miss a beat.</p>
+    <p class="footertitles">FANDOM APPS</p>
+    <p class="footertext">Take your favorite fandoms with you and never miss a beat.</p>
 
-    /*Hier komen nog images die naar de app store leiden*/
+    //Hier komen nog images die naar de app store leiden
 
-    <p>Copyright 2020 Fandom, Inc.</p>
+    <p class="endtext">Copyright 2020 Fandom, Inc.</p>
 
 
 </footer>
