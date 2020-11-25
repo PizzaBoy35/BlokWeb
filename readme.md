@@ -60,14 +60,14 @@ Extra probleempje waar ik 25 november achter ben gekomen is dat de w3c validator
 
 **Screenshot(s):**
 
-img src="images/voortgang1afbeelding1.png" width="375px" alt="Het bovenste gedeelte van de thuispagina">
+<img src="images/voortgang1afbeelding1.png" width="375px" alt="Het bovenste gedeelte van de thuispagina">
 
-img src="images/voortgang1afbeelding2.png" width="375px" alt="Het onderste gedeelte van de thuispagina">
+<img src="images/voortgang1afbeelding2.png" width="375px" alt="Het onderste gedeelte van de thuispagina">
 
 De homepage is (op een paar details na) helemaal af. De tags die bovenaan de afbeeldingen staan moeten meer uit elkaar (door er verschillende elementen van te maken), images van social media en de app/play store moeten nog toegevoegd worden en er moet nog een background-image komen.
 Ik ben nu ongeveer op 90%.
 
-img src="images/voortgang1afbeelding3.png" width="375px" alt="Het begin van de article info dat aansluit op de footer.">
+<img src="images/voortgang1afbeelding3.png" width="375px" alt="Het begin van de article info dat aansluit op de footer.">
 
 Het ziet er nu nog uit als heel weinig, maar eigenlijk moet ik hier alleen nog maar content en afbeeldingen invoegen. Er is elke keer een stukje tekst en daarna een horizontale afbeelding. Daarna weer een stukje tekst en afbeelding enz... Ook moeten hier ook nog de afbeeldingen van de footer worden toegevoegd (dus de social media icoontjes en de app/play store images).
 Ik ben nu ongeveer op 80%.
