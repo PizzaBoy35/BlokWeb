@@ -10,7 +10,7 @@ header{
     font-family: 'Noto Sans JP', sans-serif;
     display: flex;
     width: 500px;
-    height 40px;
+    height: 80px;
     justify-content: space-between;
 }
 
@@ -73,7 +73,7 @@ li.footerlinks{
 
 p.footertitles{
     margin: 20px auto 0 35px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 p.footertext{
@@ -213,6 +213,58 @@ a.articlelink{
     text-decoration: none;
 }
 
+article.articletitle{
+    display: flex;
+    position: relative;
+    height: 300px;
+    margin-bottom: 300px;
+}
 
+img.articleinfofirstimage{
+    display: flex;
+    width: 500px;
+    max-width: 500px;
+}
+h1.articletitle{
+    position: absolute;
+    top: 270px;
+    display: flex;
+    width: 440px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: black;
+    background-color: #5DF2AE; /*Alleen de tekst moet gemarkeerd worden, niet de hele box. Hoe doe ik dat?*/
+}
 
+section.articletitle{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin-top: 443px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+p.articletitle{
+    color: #5DF2AE;
+    padding-left: 2px;
+}
+
+p.daysago{
+    font-weight: 300;
+}
+
+p.tagsinarticle{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    color: black;
+    margin-left: 30px;
+    margin-top: 520px;
+
+}
 
