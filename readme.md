@@ -74,13 +74,11 @@ Ik ben nu ongeveer op 80%.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Emma | Jon | Charlie | Nine | Martijn |
+| --- | --- | --- | --- | --- |
+| Waarop letten bij responsive | w3c validator | w3c validator | w3c validator | :nth-of-type |
+| font probleem | header probleem | ... | background-image | ... |
+| w3c validator | ... | ... | ... | ... |
 
 ### Verslag van meeting
 
