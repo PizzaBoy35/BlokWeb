@@ -36,7 +36,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Op 6 december ben ik weer verder gegaan met mijn site. Ik heb een week ervoor geleerd hoe ik een hamburgermenu met een animatie op mijn site kan zetten. Dit lijkt me leuk om te doen en gebruikt ook meteen Javascript zodat ik tenminste aan alle minimale eisen voldoe. Ik ga vandaag dus alvast kijken naar hoe ik dit zal moeten regelen en waarschijnlijk ga ik er morgen mee aan de slag. Voor vandaag ga ik de overige afbeeldingen (zoals die van de social media icoontjes) nog invoegen en de rest van de 2de pagina zo ver mogelijk proberen af te maken.
+
+Op 8 december heb ik het hamburgermenu met de animatie aan mijn site toegevoegd en heb ik de site alvast online gezet om te checken of alles nog goed werkte. Verder heb ik ook nog eindelijk de comments toegevoegd en heb ik alvast gekeken naar hoe ik mijn classes het beste in nth-of-type's kan veranderen.
+
+Op 9 december heb ik alvast een gedeelte van de classes veranderd in nth-of-type's en heb ik de w3c validator gebruikt om mijn code te controleren. De laatste versie heb ik online gezet voor het voortgangsgesprek.
+
+Ik heb nog problemen met een aantal dingen (op 9 december):
+
+- Op de article info pagina moet de markering alleen over de tekst en niet in het hele blok.
+- In mijn footer worden de linkjes niet meer links uitgelijnd nadat ik de classes heb verwijderd.
+- Ik kan de button maar niet stylen om hem op de rest van de navbar te laten lijken.
 
 
 
@@ -55,7 +65,7 @@ Iets dat ik over het hoofd had gezien (en ik wist ook niet dat het überhaupt be
 
 Het laatste waar ik mee zit is de background image. Ze gebruiken op de site een schuin vlak en daaronder vandaan komen veel stippen die van groot naar klein gaan. Ik heb alvast gekeken naar hoe ik die stippen zou kunnen doen, maar heb nog geen oplossing gevonden...
 
-Extra probleempje waar ik 25 november achter ben gekomen is dat de w3c validator errors geeft over mijn body en footer tags. Hij geeft aan dat mijn body al is geopend (dat is niet zo) en dat mijn footer een 'stray start tag' is.
+Extra probleempje waar ik 25 november achter ben gekomen is dat de w3c validator errors geeft over mijn body en footer tags. Hij geeft aan dat mijn body al is geopend (dat is niet zo) en dat mijn footer een 'stray start tag' is. Later op de dag heb ik hulp gekregen van mijn medestudenten. Ik had de main en body tags helemaal door elkaar gehaald. Kleine vergissing dus, maar dit probleem is opgelost.
 
 
 **Screenshot(s):**
@@ -82,7 +92,7 @@ Ik ben nu ongeveer op 80%.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ik zou de achtergrondafbeelding kunnen faken met een rechthoek dat ik schuin plaats en dat een afbeelding daaronder met de stippen. Dit is waarschijnlijk ook wel wat ik ga doen aangezien de stippen een stuk code zouden moeten zijn wat wij nog nooit hebben geleerd en wat een stuk geavanceerder is dan wat ik gewend ben. Nog steeds zou het plaatsen van de rechthoek wel een uitdaging zijn en goed aansluiten op de opdrachten die we voor dit vak moesten maken.
 
 
 
