@@ -66,7 +66,7 @@ nav li{
     border-bottom-width: 5px;
 }
 
-nav.toonMenu ul {
+.toonMenu {
   transform: translatex(0);
   transition: 1s;
 }
@@ -210,19 +210,22 @@ a.articlelink{
     text-decoration: none;
 }
 
-article.articletitle{
+/* Begin styling van de 2de pagina */
+
+main.articleinfo article:first-of-type{
     display: flex;
     position: relative;
     height: 300px;
     margin-bottom: 300px;
 }
 
-img.articleinfofirstimage{
+main.articleinfo article:first-of-type img:first-of-type{
     display: flex;
-    width: 500px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 100%;
 }
-h1.articletitle{
+
+main.articleinfo article:first-of-type h1{
     position: absolute;
     top: 270px;
     display: flex;
@@ -233,7 +236,7 @@ h1.articletitle{
     background-color: #5DF2AE; /*Alleen de tekst moet gemarkeerd worden, niet de hele box. Hoe doe ik dat?*/
 }
 
-section.articletitle{
+main.articleinfo article:first-of-type section{
     display: flex;
     width: 250px;
     height: 50px;
@@ -246,22 +249,27 @@ section.articletitle{
     color: white;
 }
 
-p.articletitle{
+main.articleinfo article:first-of-type section:first-of-type p:first-of-type{
     color: #5DF2AE;
     padding-left: 2px;
 }
 
-p.daysago{
+main.articleinfo article:first-of-type section:first-of-type p:last-of-type{
+    position: relative;
     font-weight: 300;
+    margin-left: 0;
+    margin-top: 0;
+    color: white;
 }
-
-p.tagsinarticle{
+                                                            /* Bij deze 2 stukjes code gaat de plaatsing van elementen helemaal verkeerd*/
+main.articleinfo article:first-of-type p:last-of-type{
     display: flex;
     width: 200px;
     position: absolute;
     color: black;
     margin-left: 30px;
     margin-top: 520px;
+    word-spacing: 10px;
 }
 
 /* Vormgeving van Footer */

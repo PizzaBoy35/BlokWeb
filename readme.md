@@ -38,15 +38,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Op 6 december ben ik weer verder gegaan met mijn site. Ik heb een week ervoor geleerd hoe ik een hamburgermenu met een animatie op mijn site kan zetten. Dit lijkt me leuk om te doen en gebruikt ook meteen Javascript zodat ik tenminste aan alle minimale eisen voldoe. Ik ga vandaag dus alvast kijken naar hoe ik dit zal moeten regelen en waarschijnlijk ga ik er morgen mee aan de slag. Voor vandaag ga ik de overige afbeeldingen (zoals die van de social media icoontjes) nog invoegen en de rest van de 2de pagina zo ver mogelijk proberen af te maken.
 
-Op 8 december heb ik het hamburgermenu met de animatie aan mijn site toegevoegd en heb ik de site alvast online gezet om te checken of alles nog goed werkte. Verder heb ik ook nog eindelijk de comments toegevoegd en heb ik alvast gekeken naar hoe ik mijn classes het beste in nth-of-type's kan veranderen.
+Op 8 december heb ik het hamburgermenu met behulp van Martijn met een animatie aan mijn site toegevoegd en heb ik de site alvast online gezet om te checken of alles nog goed werkte. Verder heb ik ook nog eindelijk de comments toegevoegd en heb ik alvast gekeken naar hoe ik mijn classes het beste in nth-of-type's kan veranderen.
 
-Op 9 december heb ik alvast een gedeelte van de classes veranderd in nth-of-type's en heb ik de w3c validator gebruikt om mijn code te controleren. De laatste versie heb ik online gezet voor het voortgangsgesprek.
+Op 9 december heb ik alvast een gedeelte van de classes veranderd in nth-of-type's, heb ik de 2de pagina afgemaakt en heb ik de w3c validator gebruikt om mijn code te controleren. De laatste versie heb ik online gezet voor het voortgangsgesprek.
 
 Ik heb nog problemen met een aantal dingen (op 9 december):
 
 - Op de article info pagina moet de markering alleen over de tekst en niet in het hele blok.
 - In mijn footer worden de linkjes niet meer links uitgelijnd nadat ik de classes heb verwijderd.
-- Ik kan de button maar niet stylen om hem op de rest van de navbar te laten lijken.
+- Ik kan de button niet stylen om hem op de rest van de navbar te laten lijken.
 
 
 

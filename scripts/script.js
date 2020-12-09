@@ -1,10 +1,10 @@
 // JavaScript Document
 
-var deButton = document.querySelector("nav button");
+var deButton = document.querySelector("button");
+var deNav = document.querySelector("nav ul");
 
 deButton.addEventListener("click", toggleMenu);
 
 function toggleMenu(event) {
-  deNav = event.target.parentNode;
   deNav.classList.toggle("toonMenu");
 }
