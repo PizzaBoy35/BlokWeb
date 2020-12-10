@@ -79,13 +79,17 @@ Om de hele site af te maken moet ik nog doen:
 
 | Emma | Jon | Charlie | Nine | Martijn |
 | --- | --- | --- | --- | --- |
-| Waarop letten bij responsive | w3c validator | w3c validator | w3c validator | ... |
-| font probleem | header probleem | ... | background-image | ... |
-| w3c validator | ... | ... | ... | ... |
+| Padding bij Hover | Background-images | Gebruik van classes | ... | ... |
+| Animatie | ... | Verwachting bij surface plane | ... | ... |
+| ... | ... | ... | ... | ... |
 
 ### Verslag van meeting
 
+Uit het gesprek bleek dat ik dus nog steeds classes voor mijn articles op de homepage mag gebruiken, maar dat het er wel om gaat dat ik zoveel mogelijk classes verander in pseudo-paden. Dit is dus niet zo'n groot probleem en eigenlijk wordt het bij dat gedeelte zelfs aangeraden om classes te gebruiken.
 
+Verder werd er aangegeven dat ik helemaal los kan gaan met de microinteracties. Zo gaf Janno als tip dat ik iets met een pizza kan gaan doen. Ik denk dat ik ga proberen om de cursor in een pizza icoontje te veranderen aangezien het me een leuke uitdaging lijkt en de site toch voor wat personalisatie zorgt.
+
+Er worden ongeveer 5 animaties verwacht, waarvan ik er al één heb met het hamburgermenu.
 
 ## Voortgang 1 (week 3)
 
