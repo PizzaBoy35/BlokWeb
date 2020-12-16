@@ -31,7 +31,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik heb sinds het vorige voortgangsgesprek nog heel weinig gedaan. De enige 2 punten waar ik wel wat aan heb kunnen doen zijn weer de classes die ik wat heb aangepast en het search gedeelte van de site. De animatie werkt nu perfect, maar ik moet de vormgeving ervan nog wat mooier maken.
+
+Voor de rest heb ik nog weinig vragen. Ik weet dat ik wat ik nog moet doen wel mogelijk is maar dat ik er alleen nog tijd in moet steken. In de vakantie zou het dus goed moeten komen.
 
 
 
