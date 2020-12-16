@@ -13,7 +13,6 @@ header{
     width: 100%;
     height: 80px;
     justify-content: space-between;
-    z-index: 3;
 }
 
 body{
@@ -33,7 +32,7 @@ footer{
 
 button{
     color: #002A32;
-    z-index: 3;
+    z-index: 2;
     border-style: none;
     -webkit-appearance:none;
 }
@@ -55,7 +54,6 @@ nav ul{
     left: 0;
     font-size: 23px;
     color: #00D6D6;
-
     transform: translatex(-100%);
     transition: 1s;
 }
@@ -89,6 +87,8 @@ img.search{
     max-height: 80px;
 }
 
+/* Het zoekbalkje */
+
 section.inputfield{
     display: flex;
     width: 100%;
@@ -99,8 +99,8 @@ section.inputfield{
     position: absolute;
     justify-content: center;
     align-items: center;
-    z-index: -1;
     transition: 0.5s;
+    z-index: -1;
 }
 
 input{
@@ -137,7 +137,6 @@ article.articlegreen{
     border-radius: 10px;
     /*background-image: linear-gradient(0deg, red, #016762); - Waarom werkt dit niet?*/
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(1, 103, 98, 0.5) 100%);
-    z-index: -2;
 }
 
 article.articlepurple{
