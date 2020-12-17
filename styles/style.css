@@ -73,7 +73,7 @@ nav li{
   transition: 1s;
 }
 
-/* Rest van Header en Linktohome die ook wordt gebruikt voor footer */
+/* Rest van Header images */
 
 img.linktohome{
     display: flex;
@@ -87,7 +87,7 @@ img.search{
     max-height: 80px;
 }
 
-/* Het zoekbalkje */
+/* Het zoekbalkje van de header */
 
 section.inputfield{
     display: flex;
@@ -130,7 +130,6 @@ article.articlegreen{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    /*background-color: red;*/
     width: 450px;
     height: 550px;
     margin: 30px auto 15px auto;
@@ -148,7 +147,6 @@ article.articlepurple{
     height: 550px;
     margin: 30px auto 15px auto;
     border-radius: 10px;
-    /*background-image: linear-gradient(0deg, red, #016762); - Waarom werkt dit niet?*/
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(70,1,132, 0.7) 100%);
 }
 
