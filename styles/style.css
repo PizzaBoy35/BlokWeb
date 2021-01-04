@@ -13,6 +13,9 @@ header{
     width: 100%;
     height: 80px;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 body{
@@ -39,15 +42,16 @@ button{
 
 button img{
     display: flex;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 95px;
+    max-height: 95px;
+    cursor: url('/images/PizzaCursor.png'), auto;
 }
 
 nav ul{
     z-index: 2;
     background-color: #002A32;
     list-style:none;
-    position: fixed;
+    position: fixed;#002A32;
     width: 100%;
     height: 100%;
     top: 80px;
@@ -77,14 +81,23 @@ nav li{
 
 img.linktohome{
     display: flex;
-    max-width: 260px;
-    max-height: 150px;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    height: 95px;
+    max-height: 95px;
+    cursor: url('/images/PizzaCursor.png'), auto;
+    background-color: #002A32;
 }
 
-img.search{
-    display: flex;
-    max-width: 80px;
-    max-height: 80px;
+button img.search{
+    background-color: #002A32;
+    border: none;
+    max-width: 280px;
+    max-height: 95px;
+    cursor: url('/images/PizzaCursor.png'), auto;
+    -webkit-appearance:none;
+    color: transparent;
 }
 
 /* Het zoekbalkje van de header */
@@ -92,7 +105,7 @@ img.search{
 section.inputfield{
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 95px;
     background-color: black;
     top: 0;
     left: 0;
@@ -120,17 +133,39 @@ input{
 .toonInput {
   transform: translateY(100%);
   transition: 0.5s;
+  z-index: 1;
+  animation-name: inputField;
 }
 
 /* Einde styling van header */
 
-/* Begin styling van body */
+/* Begin styling van body thuisscherm */
+
+section.backgroundimage{
+    width: 100%;
+    height: 200px;
+    background-color: #002A32;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+section.backgroundblocks{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    transform: skewY(3deg);
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%2300262d%22%20viewBox%3D%220%200%2014.3%20281%22%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22133.2%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22147.1%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22161.4%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22175.8%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22190.2%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22204.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22219%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22233.5%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22247.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22262.3%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22276.6%22%20r%3D%22.6%22%2F%3E%3Cg%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22118.9%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22104.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2290.1%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2275.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2261.3%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2246.9%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2232.5%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2218%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%223.7%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22125.8%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22111.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2297%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2282.6%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2268.2%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2253.8%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2239.4%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2224.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2210.6%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22154.2%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22140.1%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22168.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22183%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22197.4%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22211.8%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22226.2%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22240.6%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22255.1%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22269.4%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+    z-index: -2;
+}
 
 article.articlegreen{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 450px;
+    width: 88vw;
     height: 550px;
     margin: 30px auto 15px auto;
     border-radius: 10px;
@@ -143,7 +178,7 @@ article.articlepurple{
     flex-wrap: wrap;
     position: relative;
     /*background-color: red;*/
-    width: 450px;
+    width: 88vw;
     height: 550px;
     margin: 30px auto 15px auto;
     border-radius: 10px;
@@ -153,7 +188,7 @@ article.articlepurple{
 img.articleimage{
     display: flex;
     position: absolute;
-    width: 450px;
+    width: 100%;
     height: 500px;
     z-index: -1;
     left: 0;
@@ -170,7 +205,6 @@ img.sharebutton{
     right: 20px;
     width: 30px;
     height: 30px;
-
 }
 
 p.upperarticletext{
@@ -187,7 +221,7 @@ section.lowerarticletext{
     position: absolute;
     bottom: 0;
     height: 50px;
-    width: 450px;
+    width: 88vw;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -209,11 +243,23 @@ h2.textinarticleblueunderline{
     text-decoration-style: solid;
 }
 
+h2.textinarticleblueunderline:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+}
+
 h2.textinarticlenounderline{
     display: flex;
     flex-wrap: wrap;
     margin: 200px 30px 2px 30px;
     width: 380px;
+}
+
+h2.textinarticlenounderline:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
 }
 
 h2.textinarticleyellowunderline{
@@ -226,6 +272,12 @@ h2.textinarticleyellowunderline{
     text-decoration-style: solid;
 }
 
+h2.textinarticleyellowunderline:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+}
+
 p.textinarticle{
     display: flex;
     flex-wrap: wrap;
@@ -235,7 +287,7 @@ p.textinarticle{
 }
 
 p.daypostedposition{
-    margin-left: 20px;
+    margin-left: 10px;
     color: darkgray;
     font-weight: 300;
 }
@@ -243,6 +295,16 @@ p.daypostedposition{
 a.articlelink{
     color: white;
     text-decoration: none;
+    cursor: url('/images/PizzaCursor.png'), auto;
+}
+
+section.lowerarticletext a:first-of-type{
+    cursor: url('/images/PizzaCursor.png'), auto;
+}
+
+section.lowerarticletext a:first-of-type{
+    text-decoration: none;
+    color: black;
 }
 
 /* Begin styling van de 2de pagina */
@@ -271,7 +333,7 @@ main.articleinfo article:first-of-type h1{
     background-color: #5DF2AE;
 }
 
-main.articleinfo article:first-of-type section{
+main.articleinfo article:first-of-type section:first-of-type{
     display: flex;
     width: 50vw;
     height: 50px;
@@ -286,15 +348,14 @@ main.articleinfo article:first-of-type section{
 
 main.articleinfo article:first-of-type section:first-of-type p:first-of-type{
     color: #5DF2AE;
-    width: 110vw;                              /*110 vw? Dat is volgens mij niet gebruikelijk...*/
-    padding-left: 2px;
+    width: 110vw;
+    padding-left: 5px;
 }
 
 main.articleinfo article:first-of-type section:first-of-type p:last-of-type{
     position: relative;
     text-align: right;
     font-weight: 300;
-
     margin-top: 0;
     color: white;
 }
@@ -314,7 +375,7 @@ main.articleinfo section img{
 }
 
 main.articleinfo article:last-of-type section p{
-    margin: 10px 30px 10px 30px;
+    margin: 20px 30px 20px 30px;
     font-size: 14px;
     font-weight: 300;
 }
@@ -328,6 +389,7 @@ footer a:first-of-type img{
     margin-right: auto;
     background-color: #002A32;
     width: 250px;
+    cursor: url('/images/PizzaCursor.png'), auto;
 }
 
 footer img:first-of-type{
@@ -349,6 +411,13 @@ footer li{
     width: 120px;
     margin: 10px 35px 10px 35px;
     font-weight: 300;
+    color: #00D6D1;
+}
+
+footer a{
+    cursor: url('/images/PizzaCursor.png'), auto;
+    text-decoration: none;
+    color: #00D6D1;
 }
 
 footer p {
@@ -372,6 +441,8 @@ footer p:last-of-type{
     text-align: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer img:nth-of-type(1){
@@ -381,8 +452,116 @@ footer img:nth-of-type(1){
 }
 
 footer img:last-of-type{
-    max-width: 400px;
+    max-width: 500px;
     margin-left: 10px;
+}
+
+ul.SocialMedia{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+}
+
+ul.SocialMedia li{
+    width: 0;
+    max-width: 0;
+}
+
+ul.SocialMedia img{
+    width: 70px;
+    max-width: 70px;
+}
+
+article.appadvert{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    max-width: 400px;
+    height: 200px;
+    max-height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+img.appadvert{
+    display: flex;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+article.appadvert a{
+    display: flex;
+    width: 100px;
+    max-width: 100px;
+    margin-left: 30px;
+}
+
+article.appadvert a:nth-of-type(2){
+    display: flex;
+    position: absolute;
+    width: 100px;
+    max-width: 100px;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+/* Einde styling van Footer */
+
+section.SocialMedia{
+    display: flex;
+    width: 300px;
+    max-width: 300px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 180px;
+    height: 50px;
+    max-height: 50px;
+}
+
+section.inputfield.toonInput{
+    z-index: 100;
+}
+
+a.articlelink{
+    z-index: 200;
+}
+
+button:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+}
+
+a:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+}
+
+li:focus{
+    border-color: #00D6D6;
+    color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: #00D6D6;
+    text-decoration: none;
+}
+
+img:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+}
+
+a.articlelink:hover{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
 }
 
 /* Einde vormgeving van footer */

@@ -10,6 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://developer.mozilla.org/nl/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
 3. https://codepen.io/JacobLett/pen/dOYxJb
 4. https://stackoverflow.com/questions/35866765/how-to-change-the-default-button-border-using-css
+5. https://www.youtube.com/watch?v=5Ox6NisURis
 
 ## Bronnenlijst voor afbeeldingen
 1. https://vignette.wikia.nocookie.net/51fe011d-e97c-43c4-a745-df5ac51f5740/scale-to-width-down/800
@@ -18,23 +19,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://vignette.wikia.nocookie.net/8c76662c-4eb7-4eae-ac36-c5763c304f21/scale-to-width-down/800
 
 
-
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Op 30 december ben ik eindelijk weer verder gegaan met de site. Ik heb de Pizza-cursor toegevoegd wanneer de gebruiker over een link hovert en heb de rest van de a'tjes in mijn code een link meegegeven. Ook de achtergrondafbeelding is toegevoegd. Het enige probleempje wat ik vandaag heb gehad was dat de custom cursor niet door alle browsers ondersteund wordt, bijvoorbeeld Firefox. En je ziet de cursor niet als je de browser op een telefoonformaat zet. Dit is namelijk omdat de browser dan ook gelijk "touch controls" wilt nabootsen, terwijl ik dat in dit geval niet wil. De custom cursor is dus (tot zover ik weet) helaas alleen te zien als de browser in een pc formaat is.
+
+Op 31 december heb ik de images in de footer uit elkaar gehaald en verschillende elementen meegegeven met classes. Ook heb ik het toegankelijkheid verslag ingevuld en heb ik het beoordelingsformulier bekeken zodat ik niets over het hoofd heb gezien.
+
+Op 2 januari heb ik de site beperkt responsive gemaakt voor landscape mode. Daarnaast heb ik de vormgeving van de 2de pagina afgemaakt. Ik moet nu dus alleen nog maar 2 animaties toevoegen en kijken of ik nog wat details (in zowel mijn code als de site) kan verbeteren.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
 
+## Toegankelijkheid verslag
+
+Toen ik de toegankelijkheid van mijn site ging testen kwam ik achter een paar dingen. Ten eerste: ik vond het navigeren met een screenreader best ongemakkelijk. Sommige delen worden heel snel uitgesproken en andere delen weer heel snel. Dit gaf me ook inzicht in waarom ik bijvoorbeeld de alt-teksten duidelijk moet maken. Ten tweede: sommige delen van mijn site waren nog niet te bereiken met de alt-toets.  Maar aangezien de minimale eis is dat een gebruiker op alle interactieve elementen kan komen met ten minste de alt-toets moet ik dit nog zeker aanpassen. Ten slotte waren sommige alt-teksten nog niet perfect door de woorden die ik heb gebruikt. Zo wordt het woord "image" niet goed uitgesproken met een Nederlandse screen reader. Mocht ik nog tijd hebben op het einde, dan zal ik dat nog aanpassen maar het is geen prioriteit voor me omdat de alt-teksten tenminste wel bestaan.
+
+Na de bevindingen die ik had gedaan ging ik aan de slag met de interactieve elementen zodat de gebruiker met de alt-toets alles op de site kan activeren. Daarnaast heb ik ook een focus state toegevoegd aan de buttons, klikbare images en links. Ik had nog even problemen met het meegeven van styling aan de links in de footer, maar uiteindelijk is dit me wel gelukt.
 
 ## Voortgang 3 (week 6)
 
 Ik heb sinds het vorige voortgangsgesprek nog heel weinig gedaan. De enige 2 punten waar ik wel wat aan heb kunnen doen zijn weer de classes die ik wat heb aangepast en het search gedeelte van de site. De animatie werkt nu perfect, maar ik moet de vormgeving ervan nog wat mooier maken.
 
 Voor de rest heb ik nog weinig vragen. Ik weet dat ik wat ik nog moet doen wel mogelijk is maar dat ik er alleen nog tijd in moet steken. In de vakantie zou het dus goed moeten komen.
-
 
 
 ## Voortgang 2 (week 5)
@@ -104,7 +112,7 @@ Op de 23ste ben ik begonnen met de css en afbeeldingen van mijn site. Zo heb ik 
 
 Op de 24ste heb ik de vormgeving van de homepage afgemaakt. Ik heb ook al een begin gemaakt aan de tweede pagina. Verder moet ik ook nog details toevoegen zoals social media icoontjes, images van de app en play store invoegen, de background image erin zetten en de ruimte tussen de tags groter maken met een stip ertussen. Deze details zal ik pas na het voortgangsgesprek doen. Verder zal ik kijken of het vullen van de artikel-pagina nog lukt voor het gesprek, maar mocht dit niet zo zijn dan zal ik er niet veel moeite mee hebben aangezien het elke keer een stukje tekst met afbeelding is.
 
-Iets dat ik over het hoofd had gezien (en ik wist ook niet dat het überhaupt bestond) was het zoom-niveau in mijn browser om de output van mijn code te bekijken. Hierdoor heb ik met het verkeerde aantal pixels zitten werken. Maar ipv mijn hele code te veranderen heb ik de initial scale aangepast. Ik zal dus nog even moeten vragen of dat wel mag, anders zit ik nu in een lastige situatie :/
+Iets dat ik over het hoofd had gezien (en ik wist ook niet dat het überhaupt bestond) was het zoom-niveau in mijn browser om de output van mijn code te bekijken. Hierdoor heb ik met het verkeerde aantal pixels zitten werken. Maar ipv mijn hele code te veranderen heb ik de initial scale aangepast. Ik zal dus nog even moeten vragen of dat wel mag, anders zit ik nu in een lastige situatie.
 
 Het laatste waar ik mee zit is de background image. Ze gebruiken op de site een schuin vlak en daaronder vandaan komen veel stippen die van groot naar klein gaan. Ik heb alvast gekeken naar hoe ik die stippen zou kunnen doen, maar heb nog geen oplossing gevonden...
 
