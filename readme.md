@@ -27,9 +27,21 @@ Op 31 december heb ik de images in de footer uit elkaar gehaald en verschillende
 
 Op 2 januari heb ik de site beperkt responsive gemaakt voor landscape mode. Daarnaast heb ik de vormgeving van de 2de pagina afgemaakt. Ik moet nu dus alleen nog maar 2 animaties toevoegen en kijken of ik nog wat details (in zowel mijn code als de site) kan verbeteren.
 
+Update van 4 januari:
+Ik heb veel meer bugfixes moeten doen dan verwacht. Hierdoor werden de dingen die ik nog moest doen voor de site zoals bijvoorbeeld de animaties steeds verder verzet. De bugs waren namelijk nog overal. Van het zoekbalkje dat opeens door de header kwam als ik de header een position:sticky meegaf tot images die niet goed wilden scalen tot linkjes die uit het niets de goede styling niet meer hadden. Ik heb de afgelopen 2 dagen dus vooral dat soort bugs zitten fixen en nog steeds zitten er een paar in. Het probleem is dat ik nu tijd te kort kom om die bugs nog te fixen. Ik ga me vanaf nu dus nog focussen op de 2 animaties die ik moet toevoegen. Verder zal ik ervoor zorgen dat alles tenminste werkt zodat ik aan de minimale eisen voldoe.
+
+Update van 6 januari (laatste dag):
+
+
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+
+Dingen die ik graag nog had willen fixen maar waar ik geen tijd meer voor had
+-
+-
+-
+-
 
 
 ## Toegankelijkheid verslag

@@ -23,6 +23,11 @@ body{
     background-color: #F2F5F5;
 }
 
+main.articleinfo{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #F2F5F5;
+}
+
 footer{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #002A32;
@@ -51,7 +56,7 @@ nav ul{
     z-index: 2;
     background-color: #002A32;
     list-style:none;
-    position: fixed;#002A32;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 80px;
@@ -77,6 +82,22 @@ nav li{
   transition: 1s;
 }
 
+header ul li a{
+    color: #00D6D6;
+    text-decoration: none;
+}
+
+header ul li a:visited{
+    color: #00D6D6;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: #00D6D6;
+    text-decoration: none;
+    cursor: url('/images/PizzaCursor.png'), auto;
+}
+
 /* Rest van Header images */
 
 img.linktohome{
@@ -96,7 +117,7 @@ button img.search{
     max-width: 280px;
     max-height: 95px;
     cursor: url('/images/PizzaCursor.png'), auto;
-    -webkit-appearance:none;
+    -webkit-appearance: none;
     color: transparent;
 }
 
@@ -169,15 +190,25 @@ article.articlegreen{
     height: 550px;
     margin: 30px auto 15px auto;
     border-radius: 10px;
-    /*background-image: linear-gradient(0deg, red, #016762); - Waarom werkt dit niet?*/
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(1, 103, 98, 0.5) 100%);
+}
+
+article.articlegreen:hover{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 92vw;
+    height: 570px;
+    margin: 30px auto 15px auto;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(1, 103, 98, 0.5) 100%);
+    transition: 0.5s;
 }
 
 article.articlepurple{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    /*background-color: red;*/
     width: 88vw;
     height: 550px;
     margin: 30px auto 15px auto;
@@ -185,26 +216,29 @@ article.articlepurple{
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(70,1,132, 0.7) 100%);
 }
 
+article.articlepurple:hover{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 92vw;
+    height: 570px;
+    margin: 30px auto 15px auto;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(70,1,132, 0.7) 100%);
+    transition: 0.5s;
+}
+
 img.articleimage{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 500px;
+    height: 95%;
     z-index: -1;
     left: 0;
     top: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-image: linear-gradient(0deg, red, #016762);
-}
-
-img.sharebutton{
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
 }
 
 p.upperarticletext{
@@ -221,7 +255,7 @@ section.lowerarticletext{
     position: absolute;
     bottom: 0;
     height: 50px;
-    width: 88vw;
+    width: 100%;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -233,7 +267,7 @@ section.textinarticle{
     color: white;
 }
 
-h2.textinarticleblueunderline{
+h1.textinarticleblueunderline{
     display: flex;
     flex-wrap: wrap;
     margin: 200px 30px 2px 30px;
@@ -243,26 +277,26 @@ h2.textinarticleblueunderline{
     text-decoration-style: solid;
 }
 
-h2.textinarticleblueunderline:focus{
+h1.textinarticleblueunderline:focus{
     border-color: #00D6D6;
     border-style: solid;
     border-width: 4px;
 }
 
-h2.textinarticlenounderline{
+h1.textinarticlenounderline{
     display: flex;
     flex-wrap: wrap;
     margin: 200px 30px 2px 30px;
     width: 380px;
 }
 
-h2.textinarticlenounderline:focus{
+h1.textinarticlenounderline:focus{
     border-color: #00D6D6;
     border-style: solid;
     border-width: 4px;
 }
 
-h2.textinarticleyellowunderline{
+h1.textinarticleyellowunderline{
     display: flex;
     flex-wrap: wrap;
     margin: 200px 30px 2px 30px;
@@ -272,7 +306,7 @@ h2.textinarticleyellowunderline{
     text-decoration-style: solid;
 }
 
-h2.textinarticleyellowunderline:focus{
+h1.textinarticleyellowunderline:focus{
     border-color: #00D6D6;
     border-style: solid;
     border-width: 4px;
@@ -344,12 +378,29 @@ main.articleinfo article:first-of-type section:first-of-type{
     align-items: center;
     justify-content: space-around;
     color: white;
+    transform: rotate(0);
+    transition: 2s;
 }
 
 main.articleinfo article:first-of-type section:first-of-type p:first-of-type{
     color: #5DF2AE;
     width: 110vw;
     padding-left: 5px;
+}
+
+main.articleinfo article:first-of-type section:first-of-type:hover{
+    display: flex;
+    width: 50vw;
+    height: 50px;
+    background-color: midnightblue;
+    position: absolute;
+    margin-top: 443px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    transform: rotate(360deg);
+    transition: 2s;
 }
 
 main.articleinfo article:first-of-type section:first-of-type p:last-of-type{
@@ -375,8 +426,9 @@ main.articleinfo section img{
 }
 
 main.articleinfo article:last-of-type section p{
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 20px 30px 20px 30px;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -508,17 +560,6 @@ article.appadvert a:nth-of-type(2){
 
 /* Einde styling van Footer */
 
-section.SocialMedia{
-    display: flex;
-    width: 300px;
-    max-width: 300px;
-    position: absolute;
-    margin-top: 520px;
-    margin-left: 180px;
-    height: 50px;
-    max-height: 50px;
-}
-
 section.inputfield.toonInput{
     z-index: 100;
 }
@@ -564,4 +605,28 @@ a.articlelink:hover{
     border-width: 4px;
 }
 
-/* Einde vormgeving van footer */
+img.sharebutton{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+button img.sharebutton{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+button img.sharebutton:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+    text-decoration: none;
+}
+

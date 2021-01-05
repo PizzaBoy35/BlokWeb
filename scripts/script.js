@@ -12,7 +12,6 @@ function toggleMenu(event) {
   deNav.classList.toggle("toonMenu");
 }
 
-
 function toggleSearch(event) {
   deSearch.classList.toggle("toonInput");
 }
