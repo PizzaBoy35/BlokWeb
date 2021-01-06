@@ -4,13 +4,13 @@
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
-
 ## Bronnenlijst
 1. https://stackoverflow.com/questions/33910294/what-is-the-difference-between-article-and-section-in-html5/33910539
 2. https://developer.mozilla.org/nl/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
 3. https://codepen.io/JacobLett/pen/dOYxJb
 4. https://stackoverflow.com/questions/35866765/how-to-change-the-default-button-border-using-css
 5. https://www.youtube.com/watch?v=5Ox6NisURis
+6. https://stackoverflow.com/questions/336925/custom-cursor-image-css
 
 ## Bronnenlijst voor afbeeldingen
 1. https://vignette.wikia.nocookie.net/51fe011d-e97c-43c4-a745-df5ac51f5740/scale-to-width-down/800
@@ -31,17 +31,27 @@ Update van 4 januari:
 Ik heb veel meer bugfixes moeten doen dan verwacht. Hierdoor werden de dingen die ik nog moest doen voor de site zoals bijvoorbeeld de animaties steeds verder verzet. De bugs waren namelijk nog overal. Van het zoekbalkje dat opeens door de header kwam als ik de header een position:sticky meegaf tot images die niet goed wilden scalen tot linkjes die uit het niets de goede styling niet meer hadden. Ik heb de afgelopen 2 dagen dus vooral dat soort bugs zitten fixen en nog steeds zitten er een paar in. Het probleem is dat ik nu tijd te kort kom om die bugs nog te fixen. Ik ga me vanaf nu dus nog focussen op de 2 animaties die ik moet toevoegen. Verder zal ik ervoor zorgen dat alles tenminste werkt zodat ik aan de minimale eisen voldoe.
 
 Update van 6 januari (laatste dag):
-
+Ik heb de afgelopen 2 dagen vooral met veel irritatie zitten coderen. Grotendeels omdat veel dingen niet lukten terwijl dat eerst wel zo was, maar ook omdat ik wanneer ik iets eindelijk had gefixt er wel weer een ander probleem kwam dat er niets mee te maken had (bijvoorbeeld header een sticky position geven en dat opeens het zoekbalkje eronder vandaan komt terwijl ik al z-index heb meegegeven). Ook last-minute kwamen er opeens weer dingen bij. 2 dagen geleden werkte mijn custom cursor nog op elke browser behalve Firefox. Nu (op woensdag 13:50 uur) werkt mijn custom cursor opeens nergens meer, behalve mijn eigen laptop. Ik ben niet echt blij met het eindproduct omdat er op het eind opeens zoveel misging terwijl ik het hele vak niet al te veel problemen had. Toch lever ik het natuurlijk wel in en we zullen zien.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/voortgang1afbeelding1.png" width="375px" alt="Het bovenste gedeelte van de thuispagina">
+
+<img src="images/voortgang1afbeelding2.png" width="375px" alt="Het onderste gedeelte van de thuispagina">
+
+<img src="images/voortgang2afbeelding1.png" width="375px" alt="Het bovenste gedeelte van de 2de pagina">
+
+<img src="images/voortgang2afbeelding2.png" width="375px" alt="Het middelste gedeelte van de 2de pagina">
+
+<img src="images/voortgang2afbeelding3.png" width="375px" alt="Het onderste gedeelte van de 2de pagina">
 
 Dingen die ik graag nog had willen fixen maar waar ik geen tijd meer voor had
--
--
--
--
+- Firefox bugs - Ik heb op internet gekeken wat er allemaal voor zorgde dat ik zoveel bugs had in Firefox, maar helaas heb ik niet voor alles iets kunnen vinden. Vooral op de tweede pagina gaan er een paar dingen fout. De lettergrootte is op de tweede pagina heel raar, terwijl het bij alle andere browsers wel goed werkt. Ook de custom cursor is op Firefox niet te zien, maar na een beetje onderzoek ben ik erachter gekomen dat custom cursors in Firefox moeilijker zijn om te activeren. EDIT: Last-minute werkt mijn custom cursor helemaal niet meer als ik mijn site upload, maar nog wel op mijn laptop...
+- Uitlijning van sommige elementen, vooral de p's van hoe lang geleden een artikel is gepost. Soms staan ze opeens heel anders in de section waarin ze zitten, maar wanneer je de pagina opnieuw laadt is het opeens weer gefixt. Meestal tenminste...
+- De focus state bij de artikelen op de thuispagina werkt niet perfect. Hij geeft namelijk niet de blauwe lijn weer die ik zeker heb meegegeven aan verschillende elementen met css. Ik heb zelfs de class van de titel zelf aan de styling meegegeven en zelfs dan werkt het niet. Je kan er tenminste wel met de tab-toets komen dus dat is dan wel weer goed.
+- Ik wilde eerst een animatie doen met social media icoontjes die vanaf de zijkant van het scherm naar binnen scrollen als de gebruiker op de share button klikt. Ik had mijn Javascript code hiervoor precies hetzelfde als de code die ik voor het hamburgermenu heb gebruikt en toch wilde het niet werken. Ik heb ipv deze animatie een soort easter egg toegevoegd bij de tweede pagina.
+
+Al met al nog best veel dat uiteindelijk fout is gegaan. Ik heb mijn best gedaan om tenminste de minimale eisen te halen, maar om eerlijk te zijn vind ik het zelf net kantje boord.
 
 
 ## Toegankelijkheid verslag

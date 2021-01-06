@@ -341,6 +341,31 @@ section.lowerarticletext a:first-of-type{
     color: black;
 }
 
+img.sharebutton{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+button img.sharebutton{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+button img.sharebutton:focus{
+    border-color: #00D6D6;
+    border-style: solid;
+    border-width: 4px;
+    text-decoration: none;
+}
+
 /* Begin styling van de 2de pagina */
 
 main.articleinfo article:first-of-type{
@@ -560,6 +585,8 @@ article.appadvert a:nth-of-type(2){
 
 /* Einde styling van Footer */
 
+/*Overschrijvingen van zoekbalkje, cursor image en :pseudoclasses*/
+
 section.inputfield.toonInput{
     z-index: 100;
 }
@@ -605,28 +632,11 @@ a.articlelink:hover{
     border-width: 4px;
 }
 
-img.sharebutton{
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
+a{
+    cursor: url('/images/PizzaCursor.png'), auto;
 }
 
-button img.sharebutton{
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-}
-
-button img.sharebutton:focus{
-    border-color: #00D6D6;
-    border-style: solid;
-    border-width: 4px;
-    text-decoration: none;
+button{
+    cursor: url('/images/PizzaCursor.png'), auto;
 }
 
